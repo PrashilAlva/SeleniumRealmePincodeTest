@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-06T11:55:46Z" name="RealmeGoogleSuite" finished-at="2021-03-06T12:02:24Z" duration-ms="398278">
+    <groups>
+      <group name="regression1">
+        <method signature="RealmeSearchTest.dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" name="dummyTest1" class="com.realme.testing.firefox.RealmeSearchTest"/>
+        <method signature="RealmeSearchTest.performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" name="performTest" class="com.realme.testing.firefox.RealmeSearchTest"/>
+      </group> <!-- regression1 -->
+      <group name="smoke">
+        <method signature="RealmeSearchTest.dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" name="dummyTest1" class="com.realme.testing.firefox.RealmeSearchTest"/>
+        <method signature="RealmeSearchTest.dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" name="dummyTest2" class="com.realme.testing.firefox.RealmeSearchTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-03-06T11:55:46Z" name="SearchTestChrome" finished-at="2021-03-06T12:02:24Z" duration-ms="398278">
+      <class name="com.realme.testing.firefox.RealmeSearchTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:55:46Z" name="setupDriver" finished-at="2021-03-06T11:56:44Z" duration-ms="58007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ubuntu 20.04.2 LTS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="dummyTest2" data-provider="testDataProvider" finished-at="2021-03-06T11:56:52Z" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[576117]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karkala, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method signature="dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="dummyTest2" data-provider="testDataProvider" finished-at="2021-03-06T11:56:52Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[576113]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hiriyadka, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method signature="dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="dummyTest2" data-provider="testDataProvider" finished-at="2021-03-06T11:56:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[575001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Falnir, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method signature="dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="dummyTest2" data-provider="testDataProvider" finished-at="2021-03-06T11:56:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[636102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Attur, Tamil Nadu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method signature="dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="dummyTest2" data-provider="testDataProvider" finished-at="2021-03-06T11:56:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[813781]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delivery Not Available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method signature="dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="dummyTest2" data-provider="testDataProvider" finished-at="2021-03-06T11:56:52Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[576108]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Malpe, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method signature="dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="dummyTest2" data-provider="testDataProvider" finished-at="2021-03-06T11:56:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[560033]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maruthi Sevanagar, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method signature="dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="dummyTest2" data-provider="testDataProvider" finished-at="2021-03-06T11:56:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[874267]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delivery Not Available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method signature="dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="dummyTest2" data-provider="testDataProvider" finished-at="2021-03-06T11:56:52Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[377137]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delivery Not Available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method signature="dummyTest2(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="dummyTest2" data-provider="testDataProvider" finished-at="2021-03-06T11:56:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[231001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mirzapur, Uttar Pradesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest2 -->
+        <test-method signature="performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:56:52Z" name="performTest" data-provider="testDataProvider" finished-at="2021-03-06T11:57:34Z" duration-ms="41436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[576117]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karkala, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTest -->
+        <test-method signature="performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:57:34Z" name="performTest" data-provider="testDataProvider" finished-at="2021-03-06T11:58:08Z" duration-ms="34748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[576113]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hiriyadka, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTest -->
+        <test-method signature="performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:58:08Z" name="performTest" data-provider="testDataProvider" finished-at="2021-03-06T11:58:37Z" duration-ms="28755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[575001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Falnir, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTest -->
+        <test-method signature="performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:58:37Z" name="performTest" data-provider="testDataProvider" finished-at="2021-03-06T11:59:31Z" duration-ms="54107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[813781]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delivery Not Available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTest -->
+        <test-method signature="performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:59:31Z" name="performTest" data-provider="testDataProvider" finished-at="2021-03-06T11:59:48Z" duration-ms="16289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[636102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Attur, Tamil Nadu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTest -->
+        <test-method signature="performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T11:59:48Z" name="performTest" data-provider="testDataProvider" finished-at="2021-03-06T12:00:04Z" duration-ms="16867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[560033]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maruthi Sevanagar, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTest -->
+        <test-method signature="performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:00:04Z" name="performTest" data-provider="testDataProvider" finished-at="2021-03-06T12:00:22Z" duration-ms="17211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[576108]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Malpe, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTest -->
+        <test-method signature="performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:00:22Z" name="performTest" data-provider="testDataProvider" finished-at="2021-03-06T12:01:15Z" duration-ms="53421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[874267]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delivery Not Available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTest -->
+        <test-method signature="performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:01:15Z" name="performTest" data-provider="testDataProvider" finished-at="2021-03-06T12:01:31Z" duration-ms="15621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[231001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mirzapur, Uttar Pradesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTest -->
+        <test-method signature="performTest(int, java.lang.String)[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:01:31Z" name="performTest" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="45433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[377137]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delivery Not Available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performTest -->
+        <test-method signature="dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="dummyTest1" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[576117]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karkala, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method signature="dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="dummyTest1" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[576113]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hiriyadka, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method signature="dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="dummyTest1" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[575001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Falnir, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method signature="dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="dummyTest1" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[636102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Attur, Tamil Nadu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method signature="dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="dummyTest1" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[813781]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delivery Not Available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method signature="dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="dummyTest1" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[560033]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maruthi Sevanagar, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method signature="dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="dummyTest1" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[576108]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Malpe, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method signature="dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="dummyTest1" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[874267]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delivery Not Available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method signature="dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="dummyTest1" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[377137]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delivery Not Available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method signature="dummyTest1(int, java.lang.String)[pri:1, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="dummyTest1" data-provider="testDataProvider" finished-at="2021-03-06T12:02:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[231001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mirzapur, Uttar Pradesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest1 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.realme.testing.firefox.RealmeSearchTest@14f9390f]" started-at="2021-03-06T12:02:16Z" name="quitDriver" finished-at="2021-03-06T12:02:24Z" duration-ms="8299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.realme.testing.firefox.RealmeSearchTest -->
+    </test> <!-- SearchTestChrome -->
+  </suite> <!-- RealmeGoogleSuite -->
+</testng-results>

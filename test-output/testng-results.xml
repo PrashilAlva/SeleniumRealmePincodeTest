@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-19T04:51:27Z" name="Default suite" finished-at="2021-02-19T04:52:20Z" duration-ms="53603">
+    <groups>
+    </groups>
+    <test started-at="2021-02-19T04:51:27Z" name="Default test" finished-at="2021-02-19T04:52:20Z" duration-ms="53603">
+      <class name="com.google.chrome.headlesstesting.GoogleHeadlessTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.google.chrome.headlesstesting.GoogleHeadlessTest@f09733f]" started-at="2021-02-19T04:51:27Z" name="setUp" finished-at="2021-02-19T04:51:55Z" duration-ms="27900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="headlessTest()[pri:0, instance:com.google.chrome.headlesstesting.GoogleHeadlessTest@f09733f]" started-at="2021-02-19T04:51:56Z" name="headlessTest" finished-at="2021-02-19T04:52:20Z" duration-ms="23827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headlessTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.google.chrome.headlesstesting.GoogleHeadlessTest@f09733f]" started-at="2021-02-19T04:52:20Z" name="teardown" finished-at="2021-02-19T04:52:20Z" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.google.chrome.headlesstesting.GoogleHeadlessTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

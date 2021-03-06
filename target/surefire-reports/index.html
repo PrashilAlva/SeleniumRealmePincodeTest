@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RealmeGoogleSuite" class="navigator-link">
+              <span class="suite-name border-passed">RealmeGoogleSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RealmeGoogleSuite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RealmeGoogleSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RealmeGoogleSuite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RealmeGoogleSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RealmeGoogleSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RealmeGoogleSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RealmeGoogleSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RealmeGoogleSuite" class="hide-methods passed suite-RealmeGoogleSuite"> (hide)</a> <!-- hide-methods passed suite-RealmeGoogleSuite -->
+                      <a href="#" panel-name="suite-RealmeGoogleSuite" class="show-methods passed suite-RealmeGoogleSuite"> (show)</a> <!-- show-methods passed suite-RealmeGoogleSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-RealmeGoogleSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest1(575001, Falnir, Karnataka)">dummyTest1(575001, Falnir, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest1(636102, Attur, Tamil Nadu)">dummyTest1(636102, Attur, Tamil Nadu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest1(377137, Delivery Not Available)">dummyTest1(377137, Delivery Not Available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest1(231001, Mirzapur, Uttar Pradesh)">dummyTest1(231001, Mirzapur, Uttar Pradesh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest1(576117, Karkala, Karnataka)">dummyTest1(576117, Karkala, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest1(576108, Malpe, Karnataka)">dummyTest1(576108, Malpe, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest1(576113, Hiriyadka, Karnataka)">dummyTest1(576113, Hiriyadka, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest1(560033, Maruthi Sevanagar, Karnataka)">dummyTest1(560033, Maruthi Sevanagar, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest1(813781, Delivery Not Available)">dummyTest1(813781, Delivery Not Available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest1(874267, Delivery Not Available)">dummyTest1(874267, Delivery Not Available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest2(575001, Falnir, Karnataka)">dummyTest2(575001, Falnir, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest2(636102, Attur, Tamil Nadu)">dummyTest2(636102, Attur, Tamil Nadu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest2(813781, Delivery Not Available)">dummyTest2(813781, Delivery Not Available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest2(576113, Hiriyadka, Karnataka)">dummyTest2(576113, Hiriyadka, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest2(576108, Malpe, Karnataka)">dummyTest2(576108, Malpe, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest2(560033, Maruthi Sevanagar, Karnataka)">dummyTest2(560033, Maruthi Sevanagar, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest2(377137, Delivery Not Available)">dummyTest2(377137, Delivery Not Available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest2(576117, Karkala, Karnataka)">dummyTest2(576117, Karkala, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest2(874267, Delivery Not Available)">dummyTest2(874267, Delivery Not Available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="dummyTest2(231001, Mirzapur, Uttar Pradesh)">dummyTest2(231001, Mirzapur, Uttar Pradesh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="performTest(576113, Hiriyadka, Karnataka)">performTest(576113, Hiriyadka, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="performTest(575001, Falnir, Karnataka)">performTest(575001, Falnir, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="performTest(560033, Maruthi Sevanagar, Karnataka)">performTest(560033, Maruthi Sevanagar, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="performTest(576108, Malpe, Karnataka)">performTest(576108, Malpe, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="performTest(636102, Attur, Tamil Nadu)">performTest(636102, Attur, Tamil Nadu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="performTest(576117, Karkala, Karnataka)">performTest(576117, Karkala, Karnataka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="performTest(377137, Delivery Not Available)">performTest(377137, Delivery Not Available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="performTest(874267, Delivery Not Available)">performTest(874267, Delivery Not Available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="performTest(813781, Delivery Not Available)">performTest(813781, Delivery Not Available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RealmeGoogleSuite" title="com.realme.testing.firefox.RealmeSearchTest" class="method navigator-link" hash-for-method="performTest(231001, Mirzapur, Uttar Pradesh)">performTest(231001, Mirzapur, Uttar Pradesh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RealmeGoogleSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RealmeGoogleSuite" class="panel RealmeGoogleSuite">
+          <div class="suite-RealmeGoogleSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.realme.testing.firefox.RealmeSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest1(575001, Falnir, Karnataka)">
+                  </a> <!-- dummyTest1(575001, Falnir, Karnataka) -->
+                  <span class="method-name">dummyTest1</span>
+                  <span class="parameters">(575001, Falnir, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest1(636102, Attur, Tamil Nadu)">
+                  </a> <!-- dummyTest1(636102, Attur, Tamil Nadu) -->
+                  <span class="method-name">dummyTest1</span>
+                  <span class="parameters">(636102, Attur, Tamil Nadu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest1(377137, Delivery Not Available)">
+                  </a> <!-- dummyTest1(377137, Delivery Not Available) -->
+                  <span class="method-name">dummyTest1</span>
+                  <span class="parameters">(377137, Delivery Not Available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest1(231001, Mirzapur, Uttar Pradesh)">
+                  </a> <!-- dummyTest1(231001, Mirzapur, Uttar Pradesh) -->
+                  <span class="method-name">dummyTest1</span>
+                  <span class="parameters">(231001, Mirzapur, Uttar Pradesh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest1(576117, Karkala, Karnataka)">
+                  </a> <!-- dummyTest1(576117, Karkala, Karnataka) -->
+                  <span class="method-name">dummyTest1</span>
+                  <span class="parameters">(576117, Karkala, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest1(576108, Malpe, Karnataka)">
+                  </a> <!-- dummyTest1(576108, Malpe, Karnataka) -->
+                  <span class="method-name">dummyTest1</span>
+                  <span class="parameters">(576108, Malpe, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest1(576113, Hiriyadka, Karnataka)">
+                  </a> <!-- dummyTest1(576113, Hiriyadka, Karnataka) -->
+                  <span class="method-name">dummyTest1</span>
+                  <span class="parameters">(576113, Hiriyadka, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest1(560033, Maruthi Sevanagar, Karnataka)">
+                  </a> <!-- dummyTest1(560033, Maruthi Sevanagar, Karnataka) -->
+                  <span class="method-name">dummyTest1</span>
+                  <span class="parameters">(560033, Maruthi Sevanagar, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest1(813781, Delivery Not Available)">
+                  </a> <!-- dummyTest1(813781, Delivery Not Available) -->
+                  <span class="method-name">dummyTest1</span>
+                  <span class="parameters">(813781, Delivery Not Available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest1(874267, Delivery Not Available)">
+                  </a> <!-- dummyTest1(874267, Delivery Not Available) -->
+                  <span class="method-name">dummyTest1</span>
+                  <span class="parameters">(874267, Delivery Not Available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest2(575001, Falnir, Karnataka)">
+                  </a> <!-- dummyTest2(575001, Falnir, Karnataka) -->
+                  <span class="method-name">dummyTest2</span>
+                  <span class="parameters">(575001, Falnir, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest2(636102, Attur, Tamil Nadu)">
+                  </a> <!-- dummyTest2(636102, Attur, Tamil Nadu) -->
+                  <span class="method-name">dummyTest2</span>
+                  <span class="parameters">(636102, Attur, Tamil Nadu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest2(813781, Delivery Not Available)">
+                  </a> <!-- dummyTest2(813781, Delivery Not Available) -->
+                  <span class="method-name">dummyTest2</span>
+                  <span class="parameters">(813781, Delivery Not Available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest2(576113, Hiriyadka, Karnataka)">
+                  </a> <!-- dummyTest2(576113, Hiriyadka, Karnataka) -->
+                  <span class="method-name">dummyTest2</span>
+                  <span class="parameters">(576113, Hiriyadka, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest2(576108, Malpe, Karnataka)">
+                  </a> <!-- dummyTest2(576108, Malpe, Karnataka) -->
+                  <span class="method-name">dummyTest2</span>
+                  <span class="parameters">(576108, Malpe, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest2(560033, Maruthi Sevanagar, Karnataka)">
+                  </a> <!-- dummyTest2(560033, Maruthi Sevanagar, Karnataka) -->
+                  <span class="method-name">dummyTest2</span>
+                  <span class="parameters">(560033, Maruthi Sevanagar, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest2(377137, Delivery Not Available)">
+                  </a> <!-- dummyTest2(377137, Delivery Not Available) -->
+                  <span class="method-name">dummyTest2</span>
+                  <span class="parameters">(377137, Delivery Not Available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest2(576117, Karkala, Karnataka)">
+                  </a> <!-- dummyTest2(576117, Karkala, Karnataka) -->
+                  <span class="method-name">dummyTest2</span>
+                  <span class="parameters">(576117, Karkala, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest2(874267, Delivery Not Available)">
+                  </a> <!-- dummyTest2(874267, Delivery Not Available) -->
+                  <span class="method-name">dummyTest2</span>
+                  <span class="parameters">(874267, Delivery Not Available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dummyTest2(231001, Mirzapur, Uttar Pradesh)">
+                  </a> <!-- dummyTest2(231001, Mirzapur, Uttar Pradesh) -->
+                  <span class="method-name">dummyTest2</span>
+                  <span class="parameters">(231001, Mirzapur, Uttar Pradesh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performTest(576113, Hiriyadka, Karnataka)">
+                  </a> <!-- performTest(576113, Hiriyadka, Karnataka) -->
+                  <span class="method-name">performTest</span>
+                  <span class="parameters">(576113, Hiriyadka, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performTest(575001, Falnir, Karnataka)">
+                  </a> <!-- performTest(575001, Falnir, Karnataka) -->
+                  <span class="method-name">performTest</span>
+                  <span class="parameters">(575001, Falnir, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performTest(560033, Maruthi Sevanagar, Karnataka)">
+                  </a> <!-- performTest(560033, Maruthi Sevanagar, Karnataka) -->
+                  <span class="method-name">performTest</span>
+                  <span class="parameters">(560033, Maruthi Sevanagar, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performTest(576108, Malpe, Karnataka)">
+                  </a> <!-- performTest(576108, Malpe, Karnataka) -->
+                  <span class="method-name">performTest</span>
+                  <span class="parameters">(576108, Malpe, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performTest(636102, Attur, Tamil Nadu)">
+                  </a> <!-- performTest(636102, Attur, Tamil Nadu) -->
+                  <span class="method-name">performTest</span>
+                  <span class="parameters">(636102, Attur, Tamil Nadu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performTest(576117, Karkala, Karnataka)">
+                  </a> <!-- performTest(576117, Karkala, Karnataka) -->
+                  <span class="method-name">performTest</span>
+                  <span class="parameters">(576117, Karkala, Karnataka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performTest(377137, Delivery Not Available)">
+                  </a> <!-- performTest(377137, Delivery Not Available) -->
+                  <span class="method-name">performTest</span>
+                  <span class="parameters">(377137, Delivery Not Available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performTest(874267, Delivery Not Available)">
+                  </a> <!-- performTest(874267, Delivery Not Available) -->
+                  <span class="method-name">performTest</span>
+                  <span class="parameters">(874267, Delivery Not Available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performTest(813781, Delivery Not Available)">
+                  </a> <!-- performTest(813781, Delivery Not Available) -->
+                  <span class="method-name">performTest</span>
+                  <span class="parameters">(813781, Delivery Not Available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performTest(231001, Mirzapur, Uttar Pradesh)">
+                  </a> <!-- performTest(231001, Mirzapur, Uttar Pradesh) -->
+                  <span class="method-name">performTest</span>
+                  <span class="parameters">(231001, Mirzapur, Uttar Pradesh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RealmeGoogleSuite-class-passed -->
+        </div> <!-- panel RealmeGoogleSuite -->
+        <div panel-name="test-xml-RealmeGoogleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumTestProject/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;RealmeGoogleSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.realme.listeners.TestListners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;SearchTestChrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;OS&quot; value=&quot;Ubuntu 20.04.2 LTS&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.realme.testing.firefox.RealmeSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchTestChrome --&gt;
+&lt;/suite&gt; &lt;!-- RealmeGoogleSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RealmeGoogleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RealmeGoogleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SearchTestChrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RealmeGoogleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RealmeGoogleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">dummyTest1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">performTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">dummyTest1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dummyTest2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RealmeGoogleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RealmeGoogleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RealmeGoogleSuite');
+function tableData_RealmeGoogleSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'performTest')
+data.setCell(0, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(0, 3, 54107);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'performTest')
+data.setCell(1, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(1, 3, 53421);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'performTest')
+data.setCell(2, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(2, 3, 45433);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'performTest')
+data.setCell(3, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(3, 3, 41436);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'performTest')
+data.setCell(4, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(4, 3, 34748);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'performTest')
+data.setCell(5, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(5, 3, 28755);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'performTest')
+data.setCell(6, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(6, 3, 17211);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'performTest')
+data.setCell(7, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(7, 3, 16867);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'performTest')
+data.setCell(8, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(8, 3, 16289);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'performTest')
+data.setCell(9, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(9, 3, 15621);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'dummyTest2')
+data.setCell(10, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(10, 3, 23);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'dummyTest1')
+data.setCell(11, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'dummyTest1')
+data.setCell(12, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'dummyTest2')
+data.setCell(13, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'dummyTest2')
+data.setCell(14, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'dummyTest2')
+data.setCell(15, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'dummyTest1')
+data.setCell(16, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'dummyTest2')
+data.setCell(17, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'dummyTest1')
+data.setCell(18, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'dummyTest2')
+data.setCell(19, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'dummyTest1')
+data.setCell(20, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'dummyTest1')
+data.setCell(21, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'dummyTest2')
+data.setCell(22, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'dummyTest1')
+data.setCell(23, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'dummyTest1')
+data.setCell(24, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'dummyTest1')
+data.setCell(25, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'dummyTest2')
+data.setCell(26, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'dummyTest2')
+data.setCell(27, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'dummyTest1')
+data.setCell(28, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'dummyTest2')
+data.setCell(29, 2, 'com.realme.testing.firefox.RealmeSearchTest')
+data.setCell(29, 3, 0);
+window.suiteTableData['RealmeGoogleSuite']= { tableData: data, tableDiv: 'times-div-RealmeGoogleSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-RealmeGoogleSuite">
+              </div> <!-- times-div-RealmeGoogleSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RealmeGoogleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RealmeGoogleSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RealmeGoogleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RealmeGoogleSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.realme.testing.firefox.RealmeSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupDriver(Ubuntu 20.04.2 LTS, Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">dummyTest2(576117, Karkala, Karnataka)</span>
+                <span class="method-start">65935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest2(576113, Hiriyadka, Karnataka)</span>
+                <span class="method-start">65959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest2(575001, Falnir, Karnataka)</span>
+                <span class="method-start">65960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest2(813781, Delivery Not Available)</span>
+                <span class="method-start">65961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest2(636102, Attur, Tamil Nadu)</span>
+                <span class="method-start">65961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest2(560033, Maruthi Sevanagar, Karnataka)</span>
+                <span class="method-start">65962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest2(576108, Malpe, Karnataka)</span>
+                <span class="method-start">65962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest2(874267, Delivery Not Available)</span>
+                <span class="method-start">65963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest2(231001, Mirzapur, Uttar Pradesh)</span>
+                <span class="method-start">65964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest2(377137, Delivery Not Available)</span>
+                <span class="method-start">65964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performTest(576117, Karkala, Karnataka)</span>
+                <span class="method-start">66003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performTest(576113, Hiriyadka, Karnataka)</span>
+                <span class="method-start">107440 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performTest(575001, Falnir, Karnataka)</span>
+                <span class="method-start">142189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performTest(813781, Delivery Not Available)</span>
+                <span class="method-start">170945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performTest(636102, Attur, Tamil Nadu)</span>
+                <span class="method-start">225053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performTest(560033, Maruthi Sevanagar, Karnataka)</span>
+                <span class="method-start">241343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performTest(576108, Malpe, Karnataka)</span>
+                <span class="method-start">258211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performTest(874267, Delivery Not Available)</span>
+                <span class="method-start">275423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performTest(231001, Mirzapur, Uttar Pradesh)</span>
+                <span class="method-start">328844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performTest(377137, Delivery Not Available)</span>
+                <span class="method-start">344465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest1(576117, Karkala, Karnataka)</span>
+                <span class="method-start">389968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest1(576113, Hiriyadka, Karnataka)</span>
+                <span class="method-start">389970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest1(575001, Falnir, Karnataka)</span>
+                <span class="method-start">389971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest1(813781, Delivery Not Available)</span>
+                <span class="method-start">389972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest1(636102, Attur, Tamil Nadu)</span>
+                <span class="method-start">389972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest1(560033, Maruthi Sevanagar, Karnataka)</span>
+                <span class="method-start">389973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest1(576108, Malpe, Karnataka)</span>
+                <span class="method-start">389974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest1(874267, Delivery Not Available)</span>
+                <span class="method-start">389975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest1(231001, Mirzapur, Uttar Pradesh)</span>
+                <span class="method-start">389976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dummyTest1(377137, Delivery Not Available)</span>
+                <span class="method-start">389976 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">389978 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

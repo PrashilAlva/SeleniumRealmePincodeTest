@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="RealmeGoogleSuite">
+
+	<!--  <groups>
+	Metagroup allTest contains groups regression1 and smoke
+		<define name="allTest">
+			<include name="regression1"></include>
+			<include name="smoke"></include>
+		</define>
+
+		<run>
+		Running metagroup allTest
+			<include name="allTest"></include>
+		</run>
+		
+	</groups>-->
+
+	<listeners>
+		<listener class-name="com.realme.listeners.TestListners"></listener>
+	</listeners>
+
+	<test thread-count="1" parallel="classes" name="SearchTestChrome">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="OS" value="Ubuntu 20.04.2 LTS" />
+		<classes>
+			<class name="com.realme.testing.firefox.RealmeSearchTest" />
+			<!-- class name="com.realme.testing.firefox.GoogleSearchTest"/ -->
+		</classes>
+	</test>
+	
+	<!--  <test thread-count="1" parallel="classes" name="SearchTestFirefox">
+		<parameter name="browser" value="Firefox" />
+		<parameter name="OS" value="Ubuntu 20.04.2 LTS" />
+		<classes>
+			<class name="com.realme.testing.firefox.RealmeSearchTest" />
+		</classes>
+	</test> -->
+
+</suite> <!-- RealmeGoogleSuite -->

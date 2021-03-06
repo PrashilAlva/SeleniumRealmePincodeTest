@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [RealmeGoogleSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.realme.listeners.TestListners"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="SearchTestFirefox(failed)">
+    <parameter name="OS" value="Ubuntu 20.04.2 LTS"/>
+    <parameter name="browser" value="Firefox"/>
+    <groups>
+      <run>
+        <include name="regression1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.realme.testing.firefox.RealmeSearchTest">
+        <methods>
+          <include name="performTest" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+        </methods>
+      </class> <!-- com.realme.testing.firefox.RealmeSearchTest -->
+    </classes>
+  </test> <!-- SearchTestFirefox(failed) -->
+  <test thread-count="2" parallel="tests" name="SearchTestChrome(failed)">
+    <parameter name="OS" value="Ubuntu 20.04.2 LTS"/>
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="regression1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.realme.testing.firefox.RealmeSearchTest">
+        <methods>
+          <include name="performTest" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
+        </methods>
+      </class> <!-- com.realme.testing.firefox.RealmeSearchTest -->
+    </classes>
+  </test> <!-- SearchTestChrome(failed) -->
+</suite> <!-- Failed suite [RealmeGoogleSuite] -->

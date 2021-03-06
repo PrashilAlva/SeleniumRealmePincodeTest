@@ -1,0 +1,117 @@
+2021-03-02 12:59:43,180 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-04 11:35:10,610 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-04 11:36:57,927 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumAutomationProject:SeleniumAutomationProject:0.0.1-SNAPSHOT @ /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject/pom.xml.
+2021-03-04 11:36:57,927 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumAutomationProject:SeleniumAutomationProject:0.0.1-SNAPSHOT @ /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject/pom.xml.
+2021-03-04 11:37:04,709 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:37:04,785 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:37:04,788 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:37:04,789 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:37:08,182 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:37:08,795 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:37:11,506 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:37:11,507 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:37:11,509 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumAutomationProject:SeleniumAutomationProject:0.0.1-SNAPSHOT @ /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject/pom.xml.
+2021-03-04 11:37:13,088 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:37:13,089 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:37:13,091 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:37:13,092 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:37:28,658 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:37:28,659 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:37:28,660 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:37:28,661 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:38:35,374 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:38:35,398 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:38:35,400 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:38:35,401 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:40:16,983 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M4/maven-surefire-plugin-3.0.0-M4.jar
+2021-03-04 11:40:17,590 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M4/maven-surefire-plugin-3.0.0-M4.jar
+2021-03-04 11:40:20,509 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumAutomationProject:SeleniumAutomationProject:0.0.1-SNAPSHOT @ /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject/pom.xml.
+2021-03-04 11:40:23,231 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:40:23,259 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:40:23,263 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:40:23,264 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:40:24,148 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M4/maven-surefire-plugin-3.0.0-M4.pom
+2021-03-04 11:40:24,757 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M4/maven-surefire-plugin-3.0.0-M4.pom
+2021-03-04 11:40:25,398 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M4/surefire-3.0.0-M4.pom
+2021-03-04 11:40:25,580 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M4/surefire-3.0.0-M4.pom
+2021-03-04 11:40:27,591 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumAutomationProject:SeleniumAutomationProject:0.0.1-SNAPSHOT @ /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject/pom.xml.
+2021-03-04 11:40:27,744 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:40:27,746 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:40:27,749 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:40:27,750 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:41:05,883 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-03-04 11:41:06,340 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumAutomationProject:SeleniumAutomationProject:0.0.1-SNAPSHOT @ /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject/pom.xml.
+2021-03-04 11:41:06,574 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumAutomationProject/src/main/java
+2021-03-04 11:41:06,574 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumAutomationProject/src/main/resources
+2021-03-04 11:41:06,575 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumAutomationProject/src/test/java
+2021-03-04 11:41:06,575 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumAutomationProject/src/test/resources
+2021-03-04 11:41:07,282 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-03-04 11:41:07,603 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:41:07,605 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:41:07,608 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:41:07,609 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:41:22,487 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-04 11:41:29,538 [Worker-20: Launching SeleniumAutomationProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject
+2021-03-04 11:41:29,538 [Worker-20: Launching SeleniumAutomationProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B validate
+2021-03-04 11:41:49,160 [Worker-6: Launching Executing clean in _home_prashilalva_PrashilAlva_MyPrograms_Java_TestingSelenium_SeleniumAutomationProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject
+2021-03-04 11:41:49,160 [Worker-6: Launching Executing clean in _home_prashilalva_PrashilAlva_MyPrograms_Java_TestingSelenium_SeleniumAutomationProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-03-04 11:41:52,192 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:41:52,211 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:41:52,213 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:41:52,215 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:42:05,449 [Worker-6: Launching Executing install in _home_prashilalva_PrashilAlva_MyPrograms_Java_TestingSelenium_SeleniumAutomationProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject
+2021-03-04 11:42:05,449 [Worker-6: Launching Executing install in _home_prashilalva_PrashilAlva_MyPrograms_Java_TestingSelenium_SeleniumAutomationProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-03-04 11:46:15,507 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:46:16,139 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:46:16,142 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:46:16,144 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:48:18,203 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:48:18,204 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:48:18,206 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:48:18,207 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:48:29,505 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:48:29,506 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:48:29,508 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:48:29,515 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:50:16,650 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-03-04 11:50:16,651 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-03-04 11:50:44,844 [Worker-22: Launching Executing install in _home_prashilalva_PrashilAlva_MyPrograms_Java_TestingSelenium_SeleniumAutomationProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject
+2021-03-04 11:50:44,844 [Worker-22: Launching Executing install in _home_prashilalva_PrashilAlva_MyPrograms_Java_TestingSelenium_SeleniumAutomationProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-03-04 11:52:11,741 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:52:11,818 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:52:11,820 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:52:11,821 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:52:30,686 [Worker-24: Launching Executing test in _home_prashilalva_PrashilAlva_MyPrograms_Java_TestingSelenium_SeleniumAutomationProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/prashilalva/PrashilAlva/MyPrograms/Java/TestingSelenium/SeleniumAutomationProject
+2021-03-04 11:52:30,687 [Worker-24: Launching Executing test in _home_prashilalva_PrashilAlva_MyPrograms_Java_TestingSelenium_SeleniumAutomationProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-03-04 11:53:14,879 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:53:14,880 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 11:53:14,881 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 11:53:14,882 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 14:35:15,294 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-04 16:30:51,585 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-04 16:32:54,124 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 16:32:54,191 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 16:32:54,195 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 16:32:54,196 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 16:33:34,368 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 16:33:34,397 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 16:33:34,399 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 16:33:34,488 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 20:07:32,261 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-04 20:09:58,174 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 20:09:58,202 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 20:09:58,206 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 20:09:58,208 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 20:10:09,577 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 20:10:09,619 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 20:10:09,622 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 20:10:09,641 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 20:13:59,874 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 20:13:59,925 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-04 20:13:59,928 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-04 20:13:59,929 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-06 15:45:40,704 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-06 15:46:04,853 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-06 15:46:04,882 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-06 15:46:04,889 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-06 15:46:04,890 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
