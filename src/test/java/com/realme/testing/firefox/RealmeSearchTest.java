@@ -11,6 +11,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -79,12 +80,20 @@ public class RealmeSearchTest {
 		extent.attachReporter(resultLog);
 
 		browseer = browser;
+		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("start-maximized"); // open Browser in maximized mode
+		options.addArguments("disable-infobars"); // disabling infobars
+		options.addArguments("--disable-extensions"); // disabling extensions
+		options.addArguments("--disable-gpu"); // applicable to windows os only
+		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
+		options.addArguments("--no-sandbox"); // Bypass OS security model
 
 		// Setup WebDriverManager for Chrome
 		WebDriverManager.chromedriver().setup();
 
 		// Initialize Driver
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(options);
 		// Prelims for Testing
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
